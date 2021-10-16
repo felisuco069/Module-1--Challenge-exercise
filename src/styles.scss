@@ -10,9 +10,12 @@ body {
 }
 
 header {
+  background-color: inherit;
   display: flex;
   height: 10rem;
   justify-content: space-between;
+  position: sticky;
+  top: 0.1px;
 }
 
 .header-logo,
