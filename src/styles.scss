@@ -98,7 +98,7 @@ main {
   padding-bottom: 3.5rem;
 }
 
-@media screen and (max-width: 1280px+16px) and (min-width: 376px+16px) {
+@media screen and (max-width: 1280px+16px) and (min-width: 690px+16px) {
   .platform-title {
     display: none;
   }
@@ -121,7 +121,7 @@ main {
     }
   }
 }
-@media screen and (max-width: 375px+16px) {
+@media screen and (max-width: 690px+16px) {
   .platform-title {
     display: none;
   }
