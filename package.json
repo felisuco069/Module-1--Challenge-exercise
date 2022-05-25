@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run parcel",
+    "parcel": "parcel src/index.html"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "sass": "^1.52.1"
+  },
   "devDependencies": {
-    "sass": "^1.42.1"
+    "@parcel/transformer-sass": "^2.5.0",
+    "parcel": "^2.5.0"
   }
 }
